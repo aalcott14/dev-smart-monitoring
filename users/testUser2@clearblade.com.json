@@ -1,0 +1,14 @@
+{
+    "creation_date": "2018-10-30T20:14:12Z",
+    "email": "testUser2@clearblade.com",
+    "first_name": "Test",
+    "last_name": "User2",
+    "locations": "[\"11b88599-9d16-4c24-a67e-e37603f73440\"]",
+    "phone_number": "",
+    "photo": "",
+    "pin": 1234,
+    "roles": [
+        "Authenticated"
+    ],
+    "user_id": "a8eec5bd0b90f59a9cf9a889c40c"
+}
