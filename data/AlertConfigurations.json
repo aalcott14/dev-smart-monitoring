@@ -1,0 +1,57 @@
+{
+    "app_id": "facdbdbc0b9282e9e3af8c8dd716",
+    "collection_id": "8acebdbc0b8cc9fbe4e2f0c38f8501",
+    "items": [
+        {
+            "contacts": "[\"testUser1@clearblade.com\"]",
+            "disabled": false,
+            "item_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "message": "ALERT: High Temperature",
+            "name": "High Temp",
+            "priority": "High",
+            "rules": "[{\"sensor_id\":\"111111\",\"operator\":\"GT\",\"value\":\"32\",\"property\":\"sensor_reading\"}]"
+        }
+    ],
+    "name": "AlertConfigurations",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "rules",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "contacts",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "priority",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "disabled",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
