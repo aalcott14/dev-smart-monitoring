@@ -1,0 +1,58 @@
+{
+    "app_id": "facdbdbc0b9282e9e3af8c8dd716",
+    "collection_id": "9ccebdbc0bb6a4a9809e919dd86d",
+    "items": [
+        {
+            "acknowledge_date": null,
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": true,
+            "item_id": "b7c0e661-c61f-49de-980f-cfb6cd067702",
+            "sent_date": "2018-10-30T20:54:25.205Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "6e2f63a9-fa59-4d8f-9533-acd8c87ab4cf"
+        }
+    ],
+    "name": "Alerts",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_active",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "configuration_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sent_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "acknowledge_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "target_users",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
