@@ -1,0 +1,14 @@
+{
+    "description": "First Edge",
+    "last_seen_version": null,
+    "location": null,
+    "location_id": "415f38d3-aa04-4d90-8730-7ee13e3e0d3b",
+    "mac_address": null,
+    "name": "first_edge",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "facdbdbc0b9282e9e3af8c8dd716",
+    "system_secret": "FACDBDBC0BF0E2E1E684D0E5F78301",
+    "token": "VX452yXJ4l15oYP39J08H7"
+}
