@@ -5,8 +5,8 @@
 // ex. SOURCE_NUMBER: "(+1 512-713-2913)"
 
 const TWILIO_CONFIG = {
-    USER : "",
-    PASS : "",
-    SOURCE_NUMBER : ""
+    USER : "QUMyMThiNzI5ODdkODY4NTNjNWFkYjkyMTM3MDExNWEyMA==",
+    PASS : "NDU3OWNhNmJhNGZhZTdiMjMyYzAzYzY0YWVhZTQwZTc=",
+    SOURCE_NUMBER : "KCsxIDUxMi03MTAtMjM4Myk="
 }
 

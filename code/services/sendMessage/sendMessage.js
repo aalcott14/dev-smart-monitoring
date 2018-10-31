@@ -79,7 +79,7 @@ function sendMessage(req, resp) {
     var text = req.params.payload+"   https://goo.gl/rqsPH4";
     var recipientNumber = employee.phone_number;
     var twconf = TWILIO_CONFIG;
-    var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
+    var twilio = Twilio(atob(twconf.USER), atob(twconf.PASS), atob(twconf.SOURCE_NUMBER));
     twilio.sendSMS(text, recipientNumber, function(err, data){
       log('Sending sms to ' + employee.first_name + " " + employee.last_name);
     });
@@ -90,7 +90,7 @@ function sendMessage(req, resp) {
     var recipientEmail = employee.email;
     var mailConf = MAILGUN_CONFIG;
 
-    var mailgun = Mailgun(mailConf.API_KEY, mailConf.DOMAIN, mailConf.ORIGIN_EMAIL);
+    var mailgun = Mailgun(atob(mailConf.API_KEY), atob(mailConf.DOMAIN), atob(mailConf.ORIGIN_EMAIL));
     
     mailgun.send(text, "Smart Monitoring System Email", recipientEmail, function(data){
       log('Sending email to ' + employee.first_name + " " + employee.last_name);
