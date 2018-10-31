@@ -13,132 +13,132 @@
             {
                 "Level": 1,
                 "Name": "createAlertConfiguration",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "createEmployee",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "createLocation",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "createSensor",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "createSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "deleteAlertConfiguration",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "deleteLocation",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "deleteSensor",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "deleteSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getAlertConfigurations",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getAlertHistory",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getAlertTypes",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getAlerts",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getEmployees",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getHistoryForSensors",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getLocations",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getSensorTypes",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "getSensors",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "processSensorMessage",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "sendMessage",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateAlert",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateAlertConfiguration",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateEmployee",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateLocation",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateSensor",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             }
         ],
         "Collections": [
@@ -186,7 +186,21 @@
             },
             {
                 "Columns": [],
+                "ID": "b4d4cebd0bc2c5fab2ccb1dbf4f401",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertConfigurations"
+            },
+            {
+                "Columns": [],
                 "ID": "92cebdbc0b80b6d9e9becab8b11a",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "b6d4cebd0bb2cfc3eccb8f8cbd31",
                 "Items": [],
                 "Level": 15,
                 "Name": "AlertHistory"
@@ -200,7 +214,21 @@
             },
             {
                 "Columns": [],
+                "ID": "b6d4cebd0bb6e4f4c18a9eb3b01b",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertTypes"
+            },
+            {
+                "Columns": [],
                 "ID": "9ccebdbc0bb6a4a9809e919dd86d",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "b6d4cebd0bd499a993a1eab293cb01",
                 "Items": [],
                 "Level": 15,
                 "Name": "Alerts"
@@ -214,7 +242,21 @@
             },
             {
                 "Columns": [],
+                "ID": "bad4cebd0beaa0ca9bc2809c9af301",
+                "Items": [],
+                "Level": 15,
+                "Name": "Locations"
+            },
+            {
+                "Columns": [],
                 "ID": "cacebdbc0b9cbd99e9babcbaa829",
+                "Items": [],
+                "Level": 15,
+                "Name": "SensorTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "bad4cebd0bb4e1e294b99fb3c659",
                 "Items": [],
                 "Level": 15,
                 "Name": "SensorTypes"
@@ -309,6 +351,13 @@
                 "Items": [],
                 "Level": 15,
                 "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "bcd4cebd0b9cb492dde1a49f9340",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
             }
         ],
         "Deployments": {
@@ -327,17 +376,17 @@
             {
                 "Level": 5,
                 "Name": "smart_monitoring",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "mobile_alerts",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "tracy_forms",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             }
         ],
         "Push": {

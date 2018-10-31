@@ -1,14 +1,7 @@
 {
-    "app_id": "facdbdbc0b9282e9e3af8c8dd716",
-    "collection_id": "98cebdbc0bdc81aef0ac9281f623",
-    "items": [
-        {
-            "description": "",
-            "icon": "",
-            "item_id": "6e2f63a9-fa59-4d8f-9533-acd8c87ab4cf",
-            "name": "High Temp"
-        }
-    ],
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "b6d4cebd0bb6e4f4c18a9eb3b01b",
+    "items": [],
     "name": "AlertTypes",
     "permissions": {
         "Administrator": 15,

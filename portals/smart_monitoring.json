@@ -3615,7 +3615,7 @@
                 "externalScripts": [],
                 "id": "71331538-843f-43fa-a61a-a26615bdb609",
                 "props": {
-                    "HAS_UNIQUE_STYLE": false,
+                    "HAS_UNIQUE_STYLE": true,
                     "brushHeight": 40,
                     "brushStroke": "#6e8592",
                     "chartData": {
@@ -3645,7 +3645,7 @@
                             "stroke": "#6E8592"
                         },
                         {
-                            "stroke": "#6E93A8"
+                            "stroke": "#14bf4b"
                         },
                         {
                             "stroke": "#DBA5A8"
@@ -3656,9 +3656,15 @@
                     ],
                     "lines": [
                         {
-                            "dataKey": "0",
+                            "dataKey": "111111",
                             "legendType": "line",
-                            "name": "0",
+                            "name": "111111",
+                            "type": "monotone"
+                        },
+                        {
+                            "dataKey": "222222",
+                            "legendType": "square",
+                            "name": "222222",
                             "type": "monotone"
                         }
                     ],
@@ -3786,12 +3792,12 @@
                             "display": true,
                             "dropdownOptions": [
                                 {
-                                    "name": "second_edge",
-                                    "value": "facdbdbc0b9282e9e3af8c8dd716:second_edge"
+                                    "name": "first_edge",
+                                    "value": "aed4cebd0bdedff582d6a498b7e501:first_edge"
                                 },
                                 {
-                                    "name": "first_edge",
-                                    "value": "facdbdbc0b9282e9e3af8c8dd716:first_edge"
+                                    "name": "second_edge",
+                                    "value": "aed4cebd0bdedff582d6a498b7e501:second_edge"
                                 }
                             ],
                             "inputType": "typeAhead",
@@ -4540,8 +4546,8 @@
         }
     },
     "description": "",
-    "last_updated": "26 Oct 18 17:32 UTC",
+    "last_updated": "31 Oct 18 17:00 UTC",
     "name": "smart_monitoring",
-    "system_key": "facdbdbc0b9282e9e3af8c8dd716",
+    "system_key": "aed4cebd0bdedff582d6a498b7e501",
     "type": "custom_v2"
 }

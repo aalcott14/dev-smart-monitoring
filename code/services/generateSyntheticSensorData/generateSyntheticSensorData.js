@@ -21,9 +21,9 @@ function generateSyntheticSensorData(req, resp) {
   var signalStrength = new String(100)
   var messageDate = (new Date()).toISOString()
   var batteryLevel = "100"
-  
+  const systemKey =req.systemKey;
   var messageJSON = {
-      edge_id:"facdbdbc0b9282e9e3af8c8dd716:first_edge",
+      edge_id: systemKey+":first_edge",
       sensor_message:{
          batteryLevel,
          dataValue:randomSensorValue,

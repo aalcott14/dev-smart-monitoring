@@ -1,17 +1,7 @@
 {
-    "app_id": "facdbdbc0b9282e9e3af8c8dd716",
-    "collection_id": "cacebdbc0b9cbd99e9babcbaa829",
-    "items": [
-        {
-            "attributes": "°F",
-            "data_type": "int",
-            "description": "measures the temperature",
-            "icon": "",
-            "is_probe": false,
-            "item_id": "2fbaefd5-4be2-41a1-a956-94275135e2b4",
-            "name": "Temperature"
-        }
-    ],
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "bad4cebd0bb4e1e294b99fb3c659",
+    "items": [],
     "name": "SensorTypes",
     "permissions": {
         "Administrator": 15,

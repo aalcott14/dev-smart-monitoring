@@ -3,6 +3,6 @@
     "dependencies": "log,clearblade,QPromiseLib",
     "description": "takes alertConfig, return true if violated",
     "name": "checkAlertViolated",
-    "version": 41,
+    "version": 1,
     "visibility": "system"
 }

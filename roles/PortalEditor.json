@@ -1,6 +1,6 @@
 {
     "Description": "",
-    "ID": "82cebdbc0bdc82bdfee6feaf9bd801",
+    "ID": "b2d4cebd0bd4abe9afb5a1b5d4d401",
     "Name": "PortalEditor",
     "Permissions": {
         "AllCollections": {
@@ -13,22 +13,22 @@
             {
                 "Level": 1,
                 "Name": "createSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "deleteSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "processSensorMessage",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 1,
                 "Name": "updateSensorType",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             }
         ],
         "Collections": [
@@ -56,37 +56,37 @@
             {
                 "Level": 5,
                 "Name": "mobile_alerts",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "smart_monitoring",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "AaronsClonedMobileAlerts",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "Adam_Test_Updates",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "Adam_Icon_Uploads",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "smart_monitoring_edge_metadata",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
                 "Level": 5,
                 "Name": "tracy_forms",
-                "SystemKey": "facdbdbc0b9282e9e3af8c8dd716"
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             }
         ],
         "Push": {

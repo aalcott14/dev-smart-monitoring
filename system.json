@@ -111,8 +111,8 @@
     ],
     "description": "",
     "messaging_url": "staging.clearblade.com:1883",
-    "name": "smart-monitoring",
+    "name": "dev-smart-monitoring",
     "platform_url": "https://staging.clearblade.com",
-    "system_key": "facdbdbc0b9282e9e3af8c8dd716",
-    "system_secret": "FACDBDBC0BF0E2E1E684D0E5F78301"
+    "system_key": "aed4cebd0bdedff582d6a498b7e501",
+    "system_secret": "AED4CEBD0B9ADBA5BAF9CAA8FB20"
 }
