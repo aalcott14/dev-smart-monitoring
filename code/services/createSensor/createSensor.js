@@ -4,7 +4,7 @@
  * @property {string} description
  * @property {string} sensor_label Readable label to display as name of sensor
  * @property {string} sensor_type_id Corresponds to item_id of a SensorType
- * @property {string} edge_id Corresponds to edge_key of an Edge in Edges table
+ * @property {string} edge_id Corresponds to name of an Edge in Edges table
  */
 
 /**

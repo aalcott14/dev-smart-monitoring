@@ -9,7 +9,7 @@
 
 /**
  * @typedef SensorPayload
- * @property {string} edge_id
+ * @property {string} edge_id Name of edge
  * @property {SensorMessage} sensor_message
  */
 

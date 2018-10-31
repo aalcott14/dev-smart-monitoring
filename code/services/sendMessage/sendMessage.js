@@ -77,7 +77,6 @@ function sendMessage(req, resp) {
   }
 
   function sendSMS(employee){
-    log("SENDING SMS")
     var text = req.params.payload+"   https://goo.gl/rqsPH4";
     var recipientNumber = employee.phone_number;
     var twconf = TWILIO_CONFIG;
@@ -92,7 +91,6 @@ function sendMessage(req, resp) {
   }
 
   function sendEmail(employee) {
-    log("SENDING EMAIL")
     var text = req.params.payload + "    https://goo.gl/mZgNvL";
     var recipientEmail = employee.email;
     var mailConf = MAILGUN_CONFIG;

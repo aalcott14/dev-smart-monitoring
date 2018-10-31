@@ -2,7 +2,7 @@
  * @typedef UpdateSensorReq
  * @property {boolean} [enabled]
  * @property {string} [description]
- * @property {string} [edge_id] Edge_key of sensor's edge
+ * @property {string} [edge_id] Name of sensor's edge
  * @property {string} [sensor_reading] Most recent reading from sensor
  * @property {number} [battery_level]
  * @property {number} [signal_strength]
