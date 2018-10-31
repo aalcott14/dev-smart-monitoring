@@ -3,6 +3,6 @@
     "dependencies": "",
     "description": "",
     "name": "MailgunConstants",
-    "version": 10,
+    "version": 11,
     "visibility": "system"
 }

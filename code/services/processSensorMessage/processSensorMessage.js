@@ -41,7 +41,6 @@ function processSensorMessage(req, resp) {
     reading_time: sensorObj.messageDate,
     edge_id: incomingData.edge_id,
   };
-  // RR: TODO These are async requests, they must be chained to ensure they all complete
   Q.all([
     updateSensor(), // this should create the sensor if its not found
     updateSensorHistory(),

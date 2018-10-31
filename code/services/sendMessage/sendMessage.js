@@ -8,9 +8,10 @@
  */
 
 function sendMessage(req, resp) {
+  const Buffer = BufferNodeJS().Buffer;
   ClearBlade.init({request:req});
   var msg = ClearBlade.Messaging();
-
+  log("SENDING MESSAGES")
   getUsersByEmail().then(function(employees) {
     sendAllMessages(employees)
   }).catch(function(e) {
@@ -76,21 +77,29 @@ function sendMessage(req, resp) {
   }
 
   function sendSMS(employee){
+    log("SENDING SMS")
     var text = req.params.payload+"   https://goo.gl/rqsPH4";
     var recipientNumber = employee.phone_number;
     var twconf = TWILIO_CONFIG;
-    var twilio = Twilio(atob(twconf.USER), atob(twconf.PASS), atob(twconf.SOURCE_NUMBER));
+    const decodedUser= (new Buffer(twconf.USER, 'base64')).toString('ascii');
+    const decodedPass = (new Buffer(twconf.PASS, 'base64')).toString('ascii');
+    const decodedSourceNumber = (new Buffer(twconf.SOURCE_NUMBER, 'base64')).toString('ascii');
+   
+    var twilio = Twilio(decodedUser, decodedPass, decodedSourceNumber);
     twilio.sendSMS(text, recipientNumber, function(err, data){
       log('Sending sms to ' + employee.first_name + " " + employee.last_name);
     });
   }
 
   function sendEmail(employee) {
+    log("SENDING EMAIL")
     var text = req.params.payload + "    https://goo.gl/mZgNvL";
     var recipientEmail = employee.email;
     var mailConf = MAILGUN_CONFIG;
-
-    var mailgun = Mailgun(atob(mailConf.API_KEY), atob(mailConf.DOMAIN), atob(mailConf.ORIGIN_EMAIL));
+    const decodedKey= (new Buffer(mailConf.API_KEY, 'base64')).toString('ascii');
+    const decodedDomain = (new Buffer(mailConf.DOMAIN, 'base64')).toString('ascii');
+    const decodedOriginEmail = (new Buffer(mailConf.ORIGIN_EMAIL, 'base64')).toString('ascii');
+    var mailgun = Mailgun(decodedKey, decodedDomain, decodedOriginEmail);
     
     mailgun.send(text, "Smart Monitoring System Email", recipientEmail, function(data){
       log('Sending email to ' + employee.first_name + " " + employee.last_name);

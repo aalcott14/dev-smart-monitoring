@@ -5,6 +5,15 @@
         {
             "battery_level": 100,
             "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
+            "item_id": "099a7892-e83f-4a51-b69f-f45f6cfce281",
+            "reading_time": "2018-10-30T21:29:13.263Z",
+            "sensor_id": "111111",
+            "sensor_reading": "31.10311961891875",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
             "item_id": "125240ba-ef6f-4017-a797-f3b20c5ebf06",
             "reading_time": "2018-10-30T21:27:27.158Z",
             "sensor_id": "111111",
@@ -68,6 +77,15 @@
         {
             "battery_level": 100,
             "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
+            "item_id": "90512f1d-af27-4f5c-935a-c409f4cd87a3",
+            "reading_time": "2018-10-30T21:29:13.263Z",
+            "sensor_id": "111111",
+            "sensor_reading": "35",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
             "item_id": "9c9e7d30-8a8f-4595-bd7f-1e6056b3af36",
             "reading_time": "2018-10-30T21:10:40Z",
             "sensor_id": "111111",
@@ -81,6 +99,15 @@
             "reading_time": "2018-10-30T21:29:13.263Z",
             "sensor_id": "111111",
             "sensor_reading": "31.10311961891875",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
+            "item_id": "aeaa5366-d9cc-49ae-9376-748b03ca5e0e",
+            "reading_time": "2018-10-30T21:29:13.263Z",
+            "sensor_id": "111111",
+            "sensor_reading": "35",
             "signal_strength": 100
         },
         {
@@ -144,6 +171,15 @@
             "reading_time": "2018-10-30T21:28:57.158Z",
             "sensor_id": "111111",
             "sensor_reading": "33.73538137529147",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "facdbdbc0b9282e9e3af8c8dd716:first_edge",
+            "item_id": "fbeb1f6b-1610-4fb8-b723-10197ba6ee96",
+            "reading_time": "2018-10-30T21:29:13.263Z",
+            "sensor_id": "111111",
+            "sensor_reading": "35",
             "signal_strength": 100
         }
     ],
