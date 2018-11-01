@@ -9,23 +9,30 @@
         "Roles",
         "Timers",
         "Triggers",
-        "Users"
+        "Users",
+        "System"
     ],
     "author": {
         "email": "aalcott@clearblade.com"
     },
     "clouds": [],
-    "description": "",
+    "description": "A generic Smart Monitoring system for tracking sensor data on gateways at multiple locations, configuring alerts, and managing users and security.",
     "domains": [],
     "gateways": [],
     "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
     "keywords": [
         "clearblade",
         "iot",
-        "platform"
+        "platform",
+        "template",
+        "smart",
+        "monitoring",
+        "tracking",
+        "alerts",
+        "generic"
     ],
     "license": "MIT",
-    "name": "dev-smart-monitoring-v2",
+    "name": "smart-monitoring",
     "private": false,
     "prog_lang": [],
     "protocols": [],
