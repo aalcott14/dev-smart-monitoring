@@ -12,8 +12,7 @@
     "permissions": {
         "Administrator": 1,
         "Anonymous": 0,
-        "Authenticated": 1,
-        "PortalEditor": 1
+        "Authenticated": 1
     },
     "run_user": "",
     "source": "createSensorType.js"

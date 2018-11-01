@@ -11,8 +11,7 @@
     ],
     "permissions": {
         "Administrator": 1,
-        "Authenticated": 1,
-        "PortalEditor": 1
+        "Authenticated": 1
     },
     "run_user": "",
     "source": "updateSensorType.js"

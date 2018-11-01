@@ -9,7 +9,10 @@
     "params": [
         "{}"
     ],
-    "permissions": {},
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
     "run_user": "",
     "source": "generateSyntheticSensorData.js"
 }

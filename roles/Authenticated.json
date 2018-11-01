@@ -4,10 +4,10 @@
     "Name": "Authenticated",
     "Permissions": {
         "AllCollections": {
-            "Level": 15
+            "Level": 0
         },
         "AllServices": {
-            "Level": 15
+            "Level": 0
         },
         "CodeServices": [
             {
@@ -53,6 +53,11 @@
             {
                 "Level": 1,
                 "Name": "deleteSensorType",
+                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+            },
+            {
+                "Level": 1,
+                "Name": "generateSyntheticSensorData",
                 "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
@@ -361,7 +366,7 @@
             }
         ],
         "Deployments": {
-            "Level": 15
+            "Level": 1
         },
         "DevicesList": {
             "Level": 15
@@ -370,16 +375,16 @@
             "Level": 15
         },
         "MsgHistory": {
-            "Level": 9
+            "Level": 1
         },
         "Portals": [
             {
-                "Level": 5,
+                "Level": 1,
                 "Name": "smart_monitoring",
                 "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
             {
-                "Level": 5,
+                "Level": 1,
                 "Name": "mobile_alerts",
                 "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
             },
@@ -393,20 +398,12 @@
             "Level": 0
         },
         "Roles": {
-            "Level": 15
+            "Level": 1
         },
         "Timers": {
-            "Level": 15
+            "Level": 1
         },
         "Topics": [
-            {
-                "Level": 3,
-                "Name": "monnit-webhook-adapter/#"
-            },
-            {
-                "Level": 3,
-                "Name": "immonit-webhook-adapter/#"
-            },
             {
                 "Level": 3,
                 "Name": "alert/#"
@@ -417,7 +414,7 @@
             }
         ],
         "Triggers": {
-            "Level": 15
+            "Level": 1
         },
         "UsersList": {
             "Level": 15
