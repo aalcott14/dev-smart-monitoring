@@ -13,17 +13,17 @@
             {
                 "Level": 0,
                 "Name": "createSensorType",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             },
             {
                 "Level": 0,
                 "Name": "getLocations",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             },
             {
                 "Level": 1,
                 "Name": "processSensorMessage",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             }
         ],
         "Collections": [
@@ -44,6 +44,13 @@
             {
                 "Columns": [],
                 "ID": "b6d4cebd0bd499a993a1eab293cb01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "d6a3dbbd0bfab5d2c0acbbc2991e",
                 "Items": [],
                 "Level": 15,
                 "Name": "Alerts"
@@ -96,6 +103,13 @@
                 "Items": [],
                 "Level": 1,
                 "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "daa3dbbd0bdabfb9fccaadfca404",
+                "Items": [],
+                "Level": 1,
+                "Name": "sensors_data"
             }
         ],
         "Deployments": {
@@ -114,22 +128,22 @@
             {
                 "Level": 0,
                 "Name": "smart_monitoring",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             },
             {
                 "Level": 0,
                 "Name": "mobile_alerts",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             },
             {
                 "Level": 5,
                 "Name": "tracy_alerts_portal",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             },
             {
                 "Level": 0,
                 "Name": "tracy_forms",
-                "SystemKey": "aed4cebd0bdedff582d6a498b7e501"
+                "SystemKey": "c4a3dbbd0b84c4c8d3c4a2bee873"
             }
         ],
         "Push": {
