@@ -1,6 +1,7 @@
-const TOPIC_BASE = "sensor"
-const sensorID = "111111"
-const sensorValueBounds=[25,35]
+const TOPIC_BASE = "sensor";
+const RELAY_TO_PLATFORM_TOPIC = "_platform"; //https://docs.clearblade.com/v/3/1-platform_concepts/messaging/message_relay/ 
+const sensorID = "111111";
+const sensorValueBounds=[25,35];
 /**
  * Generate sensor data for demo purposes. This will run on Edge only. To be run on a timer with no user permissions.
  * 
@@ -13,7 +14,7 @@ function generateSyntheticSensorData(req, resp) {
   ClearBlade.init({request:req})
   var messaging = ClearBlade.Messaging()
 
-  var topic = [TOPIC_BASE,sensorID].join('/')
+  var topic = [TOPIC_BASE,sensorID, RELAY_TO_PLATFORM_TOPIC].join('/')
 
   var range = sensorValueBounds[1] - sensorValueBounds[0]
   var lowerBound = sensorValueBounds[0]
