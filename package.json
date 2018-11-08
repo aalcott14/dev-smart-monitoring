@@ -13,13 +13,14 @@
         "System"
     ],
     "author": {
-        "email": "aalcott@clearblade.com"
+        "email": "aalcott@clearblade.com",
+        "name":"Adam Alcott"
     },
     "clouds": [],
-    "description": "A generic Smart Monitoring system for tracking sensor data on gateways at multiple locations, configuring alerts, and managing users and security.",
+    "description": "Smart Monitoring is a system to start monitoring your in the field assets.  Deploy edges that normalize and report data, display the asset location, define and receive alerts when events occur.",
     "domains": [],
     "gateways": [],
-    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "image_url": "https://i.imgur.com/iZQyo44.png",
     "keywords": [
         "clearblade",
         "iot",
@@ -29,13 +30,23 @@
         "monitoring",
         "tracking",
         "alerts",
-        "generic"
+        "generic",
+        "demo"
     ],
     "license": "MIT",
     "name": "smart-monitoring",
     "private": false,
-    "prog_lang": [],
+    "prog_lang": [ "javascript"],
     "protocols": [],
     "things": [],
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalcott14/dev-smart-monitoring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aalcott14/dev-smart-monitoring/issues"
+  },
+  "homepage": "https://github.com/aalcott14/dev-smart-monitoring#readme"
+
 }
