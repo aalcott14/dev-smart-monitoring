@@ -44,7 +44,7 @@ function getSensors(req, resp) {
   if (typeof req.params.pageSize =="undefined" ){
     req.params.pageSize=0;
   }
-  if (typeof req.params.name !="undefined" && req.params.name!="" ){
+  if (typeof req.params.sensor_id !="undefined" && req.params.sensor_id!="" ){
     query.equalTo("name", req.params.sensor_id);
   }
   if (typeof req.params.sensor_type_id !="undefined" && req.params.sensor_type_id!="" ){
