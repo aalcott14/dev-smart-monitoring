@@ -184,7 +184,7 @@
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "TOPIC_NAME": "messaging/c0f3eebe0bd4f1c190bbdcb4d637"
+                    "TOPIC_NAME": "messaging/be95efbe0be6fcdcb28ba39fbb8501"
                 },
                 "type": "CB_MESSAGE_TOPIC"
             },
@@ -3930,59 +3930,23 @@
                 "externalScripts": [],
                 "id": "f469e03c-4bf1-422c-9103-a889b1cc746b",
                 "props": {
-                    "HAS_UNIQUE_STYLE": true,
-                    "buttonColor": "#3f21d4",
-                    "cardBackgroundColor": "#f5f5f5",
-                    "compactForm": false,
-                    "displayColumn": "name",
-                    "editColumns": {
-                        "field1": {
-                            "dataType": "string",
-                            "defaultValue": "",
-                            "display": false,
-                            "key": "a7fef147-7287-444e-b851-4c32088829b5",
-                            "label": "Waiting on incoming sensor data to display gauge(s)",
-                            "name": "field1",
-                            "orderIdx": 1
-                        }
-                    },
-                    "eventTarget": {
-                        "dataType": "CALCULATED_DATA_TYPE",
-                        "force_data": [
-                            "CALCULATED_DATA_TYPE",
-                            "DYNAMIC_DATA_TYPE"
-                        ],
-                        "outgoing_parser": {
-                            "isDebugOn": false,
-                            "value": "return this.widget;"
-                        },
-                        "value": "console.log(this.widget.data);\n\n// return datasources.MY_CODE_SERVICE_NAME.sendData(this.widget.data).then(function (res) {\n//     if (res.success) {\n//         console.log('Successfully created: ', res.results)\n//     } else {\n//         console.log('error: ', res.results)\n//     }\n//     return res\n// })\n\nreturn {}"
-                    },
-                    "fontColor": "#000000",
-                    "htmlId": "live-sensor-gauges",
-                    "isReadOnly": true,
-                    "listSource": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "backgroundColor": "#c2c2c2",
+                    "label": "",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "progressColor": "#6e8592",
+                    "value": {
                         "dataType": "DYNAMIC_DATA_TYPE",
-                        "force_data": [
-                            "STATIC_DATA_TYPE",
-                            "CALCULATED_DATA_TYPE",
-                            "DYNAMIC_DATA_TYPE"
-                        ],
                         "id": "98da363e-67a6-45a1-b524-84d44b916844",
                         "incoming_parser": {
                             "isDebugOn": false,
-                            "value": "const getDataFromSensors = () =\u003e {\n    let rtn = {};\n    const sensors = this.datasource;\n    for (const id in sensors) {\n        try {\n            rtn = {\n                ...rtn,\n                [id]: Number(sensors[id].message.sensor_message.dataValue)\n            }\n        } catch (e) {\n            console.warn(`Unable to get data for sensor '${id}'`, sensors, e);\n        }\n    }\n    return rtn;\n}\n\nconst getWidthPercentForSensors = (count) =\u003e {\n    if (count === 1) {\n        return '100';\n    } else if (count === 2) {\n        return '50';\n    } else if (count === 3) {\n        return '33';\n    } else if (count \u003e= 4) {\n        return '25';\n    }\n    return '100';\n}\n\nconst doesCrossAlertThreshold = (operator, threshold, value) =\u003e {\n    switch (operator) {\n        case 'EQ':\n            return value == threshold;\n        case 'GT':\n            return value \u003e threshold;\n        case 'LT':\n            return value \u003c threshold;\n        default:\n            return false;\n    }\n}\n\nconst getProgressColor = (sensorInfo) =\u003e {\n    try {\n        if (sensorInfo.alertConfig) {\n            return doesCrossAlertThreshold(sensorInfo.alertConfig.operator, Number(sensorInfo.alertConfig.value), Number(sensorInfo.message.sensor_message.dataValue)) ? 'red' : 'green';\n        }\n    } catch (e) { }\n    return 'green';\n}\n\nconst getFieldSettingsFromSensors = () =\u003e {\n    let rtn = {};\n    const sensors = this.datasource;\n    const widthPercent = getWidthPercentForSensors(Object.keys(sensors).length);\n\n    if (Object.keys(sensors).length === 0) {\n        rtn = {\n            field1: {\n                inputType: \"readOnly\",\n                display: true,\n            }\n        }\n    } else {\n        for (const id in sensors) {\n            const progressColor = getProgressColor(sensors[id]);\n            try {\n                rtn = {\n                    ...rtn,\n                    [id]: {\n                        name: id, dataType: 'number', display: true, key: id, inputType: 'RADIAL_GAUGE', widthPercent, progressColor\n                    }\n                }\n            } catch (e) {\n                console.warn(`Unable to get field settings for '${id}'`, sensors, e);\n            }\n        }\n    }\n    \n    return rtn;\n}\n\n/**\n * @type {FormSourceObj}\n */\nvar formSourceObj = {\n    // the initial data the form has when loaded\n    data: getDataFromSensors(),\n\n    // an object the same shape as fieldSettings, that is merged with the settings from the UI\n    // useful for adding dynamic things like dropdown options from a collection\n    overrideFieldSettings: getFieldSettingsFromSensors()\n};\nreturn formSourceObj"
+                            "value": "const sensor = Object.keys(this.datasource)[0];\n\nreturn this.datasource[sensor].message.sensor_message.dataValue;"
                         }
-                    },
-                    "noDataText": "Select edge to see sensor data",
-                    "sliderColor": "#6E8592",
-                    "submitText": "Submit",
-                    "successNotificationText": "Form Submitted!",
-                    "titleColor": "#000000",
-                    "toggleColor": "#6E8592"
+                    }
                 },
                 "tab": "3667bf06-7abe-4486-8dcd-03b23e4fff12",
-                "type": "FORM_WIDGET_COMPONENT"
+                "type": "RADIAL_GAUGE_WIDGET_COMPONENT"
             },
             "flyoutTitle": {
                 "externalScripts": [],
@@ -4003,8 +3967,8 @@
         }
     },
     "description": "",
-    "last_updated": "15 Nov 18 15:20 CST",
+    "last_updated": "15 Nov 18 15:36 CST",
     "name": "smart_monitoring_edge",
-    "system_key": "c0efeebe0b84ade38c9282ea8c05",
+    "system_key": "9a94efbe0b9299c0eabf9296a4ec01",
     "type": "custom_v2"
 }
