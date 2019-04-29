@@ -111,7 +111,7 @@
     ],
     "description": "Smart Monitoring is a system to start monitoring your in the field assets.  Deploy edges that normalize and report data, display the asset location, define and receive alerts when events occur.",
     "messaging_url": "staging.clearblade.com:1883",
-    "name": "dev-smart-monitoring-v2",
+    "name": "smart-monitoring",
     "platform_url": "https://staging.clearblade.com",
     "system_key": "c4a3dbbd0b84c4c8d3c4a2bee873",
     "system_secret": "C4A3DBBD0B98F59FF9E4EFB9C6AB01"
