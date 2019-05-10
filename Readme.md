@@ -39,7 +39,19 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 ## Usage
 
-Sensor data published via MQTT to message topic sensor/{sensorName} will trigger a code service that handles the data. It is responsible for detecting and signaling alerts, as well as storing sensor and alert data in history collections.
+Sensor data can be published via MQTT from edge to platform at topic: `sensor/{sensorName}/_platform`(used for data in smart_monitoring portal) or from platform to edge at topic: `sensor/{sensorName}/_broadcast` (used fro data in smart_monitoring_edge portal). This will trigger a code service that handles the data. It is responsible for detecting and signaling alerts, as well as storing sensor and alert data in history collections.
+
+Message payload structure is as follows (notice all values are strings):
+` {
+	"edge_id": "first_edge",
+	"sensor_message": {
+		"batteryLevel": "100",
+		"dataValue": "10",
+		"sensorID": "111111",
+		"signalStrength": "10",
+		"messageDate": "2019-01-01T00:00:00Z"
+	}
+}`
 
 ## Assets
 
